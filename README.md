@@ -98,6 +98,21 @@ A full-stack platform that replaces messy complaint handling on campus. Students
 
 **Stack:** Spring Boot · React · MySQL · JWT · Docker
 
+### 💻 CodeRoom: Real-Time Collaborative Coding Interview Platform
+A MERN-stack platform where an interviewer and a candidate join the same room and code together live, like a mini CoderPad. I built it to practice mock interviews with friends and to learn how real-time systems work.
+
+**How it works:** one person creates a room and shares the link. Both users see the same editor, every keystroke syncs instantly over WebSockets, and code runs on the server so both of them see the output.
+
+**Highlights**
+- Real-time shared code editor (Monaco, the same editor as VS Code) with live cursor sync using Socket.io
+- Run code in Python, Java, and JavaScript through a sandboxed execution API (Judge0)
+- Interviewer and candidate roles, secured with JWT authentication
+- Built-in question panel, interview timer, and shared notes
+- Session history saved in MongoDB, so past interviews can be reopened
+- Deployed live with a REST API for rooms, users, and sessions
+
+**Stack:** MongoDB · Express · React · Node.js · Socket.io · JWT · Judge0
+
 ### 🔗 Distributed URL Shortener
 A backend and systems project that turns long URLs into short links and keeps working when traffic grows. It focuses on scalability and fast redirects.
 
@@ -107,6 +122,7 @@ A backend and systems project that turns long URLs into short links and keeps wo
 - Cache layer for fast redirects on popular links
 
 **Stack:** Java · Spring Boot · Redis
+  
 ---
 
 ## 📚 Currently
